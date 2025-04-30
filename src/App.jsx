@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Tech from './components/Tech'
 import './index.css'
+import Experience from './components/Experience'
+
 
 
 const App = () => {
@@ -22,6 +24,7 @@ const App = () => {
       <Hero />
       <About />
       <Tech /> 
+      <Experience />
       
     </div>
   )
