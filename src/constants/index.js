@@ -1,45 +1,56 @@
-export const ABOUT_TEXT = `I am a dedicated and versatile FrontEnd developer with a passion for creating efficient and user-friendly web applications. 
-I am a student at SRM Institute of Science and Technology. I have worked with a variety of technologies, including HTML, CSS, Javascript, React, Next.js, Node.js, MySQL, and MongoDB. 
-My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
-Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Apart from it, 
-I am a state football player and have always been a guy who believes in hard work. 
-At last, I believe in what Steve Jobs said: "The only way to do great work is to love what you do...!!"`;
+export const ABOUT_TEXT = `Hey, I’m Tusharika Suman — a CSE student at SRM, currently exploring frontend development and loving the process of building things that actually work. I’ve been working with HTML, CSS, JavaScript, React, and slowly diving into backend tools like Node.js and MongoDB.
+
+I don’t come from a super techy background, but I’ve always been curious about how websites and apps are made, and that curiosity pushed me to start learning and creating on my own. I enjoy editing videos, designing posts, and working on projects where I get to be creative.
+
+Outside of coding, I love spending time with my dog, swimming, playing guitar, vlogging occasionally, and just listening to music to clear my head. I’ve also done social media content work for causes I care about, and I genuinely enjoy that space too.
+
+I’m still figuring out my path, but one thing I’m sure of — I learn best by doing, and I’m not afraid to start from scratch and build up.
+
+"`;
 
 export const EXPERIENCES = [
-  {
-    year: "2023",
-    role: "BTech CSE CORE",
-    company: "SRM Institute of Science and Technology, Kattankulathur",
-    description: `Currently a student of BTech at SRMIST. I am having a 9.5 GPA in my first semester.`,
-    technologies: ["HTML", "CSS", "Vue.js", "MySQL"],
-  },
-  {
-    year: "2024",
-    role: "12th Class",
-    company: "Amity International School, Gurugram",
-    description: `Passed with 80% in 12th Board exams.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2021",
-    role: "10th Class",
-    company: "Amity International School, Gurugram",
-    description: `Passed with 90% in CBSE Board Exams.`,
-    technologies: ["Ruby", "Rails", "PHP", "SQLite"],
-  },
-];
+    {
+      year: "2024 – Present",
+      role: "BTech CSE Core Student",
+      company: "SRM Institute of Science and Technology, Kattankulathur",
+      description: `Currently pursuing BTech in Computer Science. Scored a GPA of 9.5 in my first semester. Actively involved in hackathons, coding events, and project work.`,
+      technologies: ["HTML", "CSS", "JavaScript", "C", "C++"]
+    },
+    {
+      year: "2024",
+      role: "12th Grade Student",
+      company: "Amity International School, Gurugram",
+      description: `Completed my Class 12 CBSE Board Exams with 80%. Took PCM with Computer Science and built a strong foundation in programming and logic building.`,
+      technologies: ["Python", "SQL", "Canva", "MS Office"]
+    },
+    {
+      year: "2022",
+      role: "10th Grade Student",
+      company: "Amity International School, Gurugram",
+      description: `Scored 90% in my Class 10 CBSE Board Exams. Learned the basics of HTML, problem-solving, and digital tools.`,
+      technologies: ["HTML", "Canva", "MS PowerPoint"]
+    }
+  ];
+  
 
-export const PROJECTS = [
-  {
-    title: "Dictionary App",
-    description:
-      "A dictionary app that is connected via an API and is a fully functional web app.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-];
+  export const PROJECTS = [
+    {
+      title: "AI-Powered Disease Detection System",
+      description:
+        "An AI-based system that detects early signs of diseases using image processing and a symptom-based chatbot. The system features a camera module for visual diagnosis, a chatbot for textual symptom analysis, and emergency video guides for offline use.",
+      technologies: ["Python", "Java", "HTML", "CSS", "JS", "Firebase"],
+    },
+    {
+      title: "Personal Portfolio Website",
+      description:
+        "A responsive and interactive portfolio to showcase my work, skills, and experience. Designed using modern UI/UX practices and animations, built completely with React and Tailwind CSS.",
+      technologies: ["React", "Tailwind CSS", "JavaScript", "Vite"],
+    },
+  ];
+  
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153",
+  address: "Gurugram, Haryana, India",
   phoneNo: "+12 4555 666 00",
   email: "me@example.com",
 };
