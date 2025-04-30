@@ -4,7 +4,9 @@ import { PROJECTS } from '../constants';
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">Projects</h1>
+      <h1 className="my-20 text-center text-4xl italic font-fancy text-violet-400 drop-shadow-sm">
+  Project </h1>
+
       <div className="flex flex-col items-center gap-10">
         {PROJECTS.map((project, index) => (
           <div key={index} className="max-w-xl w-full p-6 rounded-2xl border-4 border-neutral-800">

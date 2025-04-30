@@ -1,12 +1,7 @@
-export const ABOUT_TEXT = `Hey, I’m Tusharika Suman — a CSE student at SRM, currently exploring frontend development and loving the process of building things that actually work. I’ve been working with HTML, CSS, JavaScript, React, and slowly diving into backend tools like Node.js and MongoDB.
-
+export const ABOUT_TEXT = `Hey, I’m Tusharika Suman — a CSE student at SRM, currently exploring frontend development and loving the process of building things that actually work. I’ve been working with HTML, CSS, JavaScript, React.
 I don’t come from a super techy background, but I’ve always been curious about how websites and apps are made, and that curiosity pushed me to start learning and creating on my own. I enjoy editing videos, designing posts, and working on projects where I get to be creative.
-
 Outside of coding, I love spending time with my dog, swimming, playing guitar, vlogging occasionally, and just listening to music to clear my head. I’ve also done social media content work for causes I care about, and I genuinely enjoy that space too.
-
-I’m still figuring out my path, but one thing I’m sure of — I learn best by doing, and I’m not afraid to start from scratch and build up.
-
-"`;
+I’m still figuring out my path, but one thing I’m sure of — I learn best by doing, and I’m not afraid to start from scratch and build up.`;
 
 export const EXPERIENCES = [
     {
