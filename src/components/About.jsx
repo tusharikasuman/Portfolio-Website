@@ -1,5 +1,6 @@
 import React from "react";
 import AboutImg from "../assets/aboutme.jpeg";
+import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
+            <p> {ABOUT_TEXT} </p>
           </div>
         </div>
       </div>

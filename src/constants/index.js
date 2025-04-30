@@ -1,6 +1,10 @@
-export const ABOUT_TEXT = `I am a dedicated and versatile FrontEnd developer with a passion for creating efficient and user-friendly web applications. I am a student at SRM Institute of Science and Technology. I have worked with a variety of technologies, including HTML, CSS, Javascript, React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Apart from it, I am a state football player and have always been a guy who believes in hard work. At last, I believe in what Steve Jobs said: "The only way to do great work is to love what you do...!!"`;
+export const ABOUT_TEXT = `I am a dedicated and versatile FrontEnd developer with a passion for creating efficient and user-friendly web applications. 
+I am a student at SRM Institute of Science and Technology. I have worked with a variety of technologies, including HTML, CSS, Javascript, React, Next.js, Node.js, MySQL, and MongoDB. 
+My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
+Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Apart from it, 
+I am a state football player and have always been a guy who believes in hard work. 
+At last, I believe in what Steve Jobs said: "The only way to do great work is to love what you do...!!"`;
 
-// ✅ Fixed EXPERIENCES array
 export const EXPERIENCES = [
   {
     year: "2023",
@@ -28,7 +32,6 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Dictionary App",
-    image: project1,
     description:
       "A dictionary app that is connected via an API and is a fully functional web app.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
