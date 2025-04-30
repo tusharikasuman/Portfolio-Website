@@ -9,7 +9,7 @@ export const EXPERIENCES = [
       role: "BTech CSE Core Student",
       company: "SRM Institute of Science and Technology, Kattankulathur",
       description: `Currently pursuing BTech in Computer Science. Scored a GPA of 9.5 in my first semester. Actively involved in hackathons, coding events, and project work.`,
-      technologies: ["HTML", "CSS", "JavaScript", "C", "C++"]
+      technologies: ["HTML", "CSS", "Java", "C", "C++"]
     },
     {
       year: "2024",
