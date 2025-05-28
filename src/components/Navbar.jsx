@@ -30,7 +30,7 @@ const Navbar = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.instagram.com/tusharika.suman/"
+            href="https://www.instagram.com/tusharika.jpeg/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-400 transition-colors"
