@@ -39,25 +39,31 @@ export const EXPERIENCES = [
     title: "AI-Powered Disease Detection System",
     description:
       "A smart health assistant that detects early signs of disease through image processing and a symptom-based chatbot. Features include a camera module for visual diagnosis, AI chatbot for symptom analysis, emergency video guides for offline first-aid, and a doctor consultation portal.",
-    technologies: ["Python", "Java", "HTML", "CSS", "JavaScript", "Firebase"]
+    technologies: ["Python", "Java", "HTML", "CSS", "JavaScript", "Firebase"],
+    link: "https://ai-medicare-model.vercel.app/",
   },
+  
   {
     title: "Personal Portfolio Website",
     description:
       "A modern, responsive portfolio to showcase my skills, projects, and experience. Designed with smooth animations and clean UI/UX practices, built entirely using React and Tailwind CSS with fast build configuration via Vite.",
-    technologies: ["React", "Tailwind CSS", "JavaScript", "Vite"]
+    technologies: ["React", "Tailwind CSS", "JavaScript", "Vite"],
+    link: "https://portfolio-website-kappa-murex-17.vercel.app/",
   },
+
   {
     title: "Weather Forecast Web App",
     description:
       "A simple yet functional weather website that provides real-time weather updates using a public API. Users can search for any city to get temperature, weather conditions, and humidity data with a clean, responsive UI.",
     technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"]
   },
+
   {
     title: "RSCO Official Website",
     description:
       "Designed and developed the website for RSCO — an overseas education and placement consultancy. The site features brand-aligned design, smooth navigation, informative content sections, and responsive layout, built using clean HTML, CSS, and JavaScript.",
-    technologies: ["HTML", "CSS", "JavaScript"]
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://www.rscoedu.com/",
   }
 ];
 

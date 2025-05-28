@@ -5,14 +5,20 @@ const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl italic font-fancy text-violet-400 drop-shadow-sm">
-  Project </h1>
+        Projects
+      </h1>
 
       <div className="flex flex-col items-center gap-10">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="max-w-xl w-full p-6 rounded-2xl border-4 border-neutral-800">
-            <h2 className="text-2xl font-semibold text-cyan-400 mb-2">{project.title}</h2>
+          <div
+            key={index}
+            className="max-w-xl w-full p-6 rounded-2xl border-4 border-neutral-800"
+          >
+            <h2 className="text-2xl font-semibold text-cyan-400 mb-2">
+              {project.title}
+            </h2>
             <p className="text-neutral-400 mb-4">{project.description}</p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech, i) => (
                 <span
                   key={i}
@@ -22,6 +28,16 @@ const Projects = () => {
                 </span>
               ))}
             </div>
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 underline hover:text-cyan-300 transition"
+              >
+                View Project
+              </a>
+            )}
           </div>
         ))}
       </div>
@@ -30,4 +46,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
