@@ -1,8 +1,8 @@
-export const ABOUT_TEXT = `Hi, I’m Tusharika Suman — a Computer Science Engineering student at SRM, with a growing passion for frontend development. I’m currently honing my skills in HTML, CSS, JavaScript, and React, and I truly enjoy the process of turning ideas into interactive, user-friendly web experiences.
+export const ABOUT_TEXT = `Hi, I’m Tusharika Suman — a Computer Science Engineering student at SRM, with a growing passion for frontend development. I’m currently sharpening my skills in HTML, CSS, JavaScript, and React, and I genuinely enjoy the process of turning ideas into interactive, user-friendly web experiences.
 
-Though I don’t come from a deeply technical background, my curiosity about how websites and applications work led me to start learning and building independently. I believe in learning by doing and love working on projects that blend creativity with technology.
+From early on, I’ve been fascinated by the way websites come to life—from design to functionality. That interest, combined with my technical foundation in computer science, pushed me to dive deeper into frontend development. I love the challenge of bringing both logic and creativity together to build something meaningful from scratch.
 
-Beyond tech, I’m a creative at heart — I enjoy video editing, graphic designing, and managing social media content, especially for causes I care about. Outside of my digital world, you’ll often find me swimming, playing guitar, vlogging, or just spending time with my dog and some good music.
+Beyond tech, I’m a creative at heart — I enjoy video editing, graphic design, and managing social media content, especially for causes I care about. Outside of my digital world, you’ll often find me swimming, playing guitar, vlogging, or just spending time with my dog and listening to some good music.
 
 While I’m still exploring my path in tech, I’m driven by the excitement of building things from the ground up and constantly pushing myself to grow.
 
