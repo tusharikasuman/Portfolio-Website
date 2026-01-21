@@ -1,21 +1,33 @@
-export const ABOUT_TEXT = `Hi, I’m Tusharika Suman — a Computer Science Engineering student at SRM, with a growing passion for frontend development. I’m currently sharpening my skills in HTML, CSS, JavaScript, and React, and I genuinely enjoy the process of turning ideas into interactive, user-friendly web experiences.
+export const ABOUT_TEXT = `Hi, I’m Tusharika Suman, a Computer Science Engineering student at SRM Institute of Science and Technology, with a strong and growing interest in full stack development.
 
-From early on, I’ve been fascinated by the way websites come to life—from design to functionality. That interest, combined with my technical foundation in computer science, pushed me to dive deeper into frontend development. I love the challenge of bringing both logic and creativity together to build something meaningful from scratch.
+I enjoy building websites that tell a story — experiences that are user-friendly, interactive, and visually engaging. I’m especially drawn to interfaces that feel alive, whether through smooth interactions, thoughtful design, or subtle 3D elements (which I’m currently learning and experimenting with). For me, a good website isn’t just functional — it should feel intuitive and memorable.
 
-Beyond tech, I’m a creative at heart — I enjoy video editing, graphic design, and managing social media content, especially for causes I care about. Outside of my digital world, you’ll often find me swimming, playing guitar, vlogging, or just spending time with my dog and listening to some good music.
+On the technical side, I’m actively sharpening my skills in frontend technologies like HTML, CSS, JavaScript, and React, while also strengthening my backend development skills to better understand how complete systems work behind the scenes. I enjoy connecting the frontend and backend to create applications that are cohesive, efficient, and scalable.
 
-While I’m still exploring my path in tech, I’m driven by the excitement of building things from the ground up and constantly pushing myself to grow.
+I’ve worked on multiple projects and genuinely love the process of building — from planning and problem-solving to refining small details. Every project teaches me something new, and that constant learning is what keeps me motivated to build more and push my limits.
 
-I’m always eager to learn and collaborate, so if you have a project in mind or just want to chat about tech, feel free to reach out!`;
+Beyond development, I’m a creative at heart. I enjoy video editing, graphic design, and content creation, which influence how I think about user experience and storytelling in web development. Outside of tech, I like swimming, playing guitar, vlogging, spending time with my dog, and listening to music.
+
+I’m still exploring my path in tech, but I’m driven by curiosity, creativity, and the excitement of building things from scratch. I’m always open to learning, collaborating, and working on meaningful projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 – Present",
-    role: "B.Tech CSE Core Student",
-    company: "SRM Institute of Science and Technology, Kattankulathur",
-    description: `Pursuing a Bachelor of Technology in Computer Science and Engineering. Achieved a GPA of 9.5 in the first semester. Actively participating in hackathons, coding competitions, and hands-on project development to enhance practical skills.`,
-    technologies: ["HTML", "CSS", "Java", "C", "C++"]
-  },
+  year: "2024 – Present",
+  role: "B.Tech CSE Core Student",
+  company: "SRM Institute of Science and Technology, Kattankulathur",
+  description: `Pursuing a Bachelor of Technology in Computer Science and Engineering. Currently maintaining a GPA of 8.9. Actively participating in hackathons, coding competitions, and hands-on project development to strengthen both frontend and backend development skills.`,
+  technologies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Java",
+    "C",
+    "C++",
+    "Git",
+    "GitHub"
+  ]
+},
   {
     year: "2024",
     role: "High School Graduate (12th Grade)",
@@ -55,7 +67,8 @@ export const EXPERIENCES = [
     title: "Weather Forecast Web App",
     description:
       "A simple yet functional weather website that provides real-time weather updates using a public API. Users can search for any city to get temperature, weather conditions, and humidity data with a clean, responsive UI.",
-    technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"]
+    technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+    link: "https://weather-website-psi-fawn.vercel.app/",
   },
 
   {
@@ -64,6 +77,14 @@ export const EXPERIENCES = [
       "Designed and developed the website for RSCO — an overseas education and placement consultancy. The site features brand-aligned design, smooth navigation, informative content sections, and responsive layout, built using clean HTML, CSS, and JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://www.rscoedu.com/",
+  },
+
+  {
+    title: "Spotify Clone",
+    description:
+      "A responsive clone of the Spotify web player interface, built with React and Tailwind CSS. Features include a music player, playlist management, and a clean UI design.",
+    technologies: ["React", "Tailwind CSS", "JavaScript"],
+    link: "https://spotify-clone-3hd5xw2sf-tusharikasumans-projects.vercel.app/",
   }
 ];
 
